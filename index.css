@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('you.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .success-message {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(9, 156, 14, 0.904);
+    color: #fafafaf8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+  }
+  
+  .success-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .success-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .success-text {
+    font-size: 18px;
+  }
+  
